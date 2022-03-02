@@ -1,0 +1,140 @@
+let userName = '';
+
+const userQuestion = '' ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+userName ? console.log(`Hello, ${userName}!`)
+: console.log('Hello!')
+
+console.log(`${userName} asked:
+${userQuestion}`);
+
+let eightBall = Math.floor(Math.random() * 8)
+
+
+
+
+
+if (userName === 'Dylan Massard'){
+  eightBall = 9
+  } else if (userName === 'Navid Hodjat'){
+    eightBall = 12
+  } else if (userName === "Reem Alzahabi"){
+    eightBall = 10
+  } else if (userName === 'QB') {
+    eightBall = 10
+  } else if (userName === 'Layla Baaj'){
+    eightBall = 10
+  } else if (userName === 'Omar Baaj'){
+    eightBall = 11
+  } else if (userName === 'Dylan Pan'){
+    eightBall = 13
+  } else if (userName === 'Henry VDB'){
+    eightBall = 9
+  } else if (userName === 'Dylan pan'){
+    eightBall = 9
+  } else if (userName === 'Abdullah Baaj'){
+    eightBall = 10
+  }
+
+
+
+
+
+
+
+switch (eightBall) {
+  case 0:
+  console.log('It is certain')
+  break;
+  case 1:
+  console.log('It is decidedly so')
+  break;
+  case 2:
+  console.log('Reply hazy try again') 
+  break;
+  case 3:
+  console.log('Cannot predict now')
+  break;
+  case 4:
+  console.log('Do not count on it')
+  break;
+  case 5:
+  console.log('My sources say no')
+  break;
+  case 6:
+  console.log('Outlook not so good')
+  break;
+  case 7:
+  console.log('Signs point to yes')
+  break;
+  case 9:
+  console.log(`I am sorry can not talk to trash without malfunctioning, HABO BAAJ IS BEST, ${userName} is the not better than HABO BAAJ`)
+  break;
+  case 10:
+  console.log( `I am sorry I just love ${userName} very much`)
+  break;
+  case 11:
+  console.log('IS THAT SMOKE I SMELL SOUND THE ALARMS 🔥🔥🔥🔥🔥🔥 and by the way your brother loves you very much BURNING FOREST :)')
+  break;
+  case 12:
+  console.log(`Ahh hello ${userName} I can not answer your question I am being         watched but here's the decoy
+  
+  you are very cool . |  
+                      V
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ TOP SECRET
+  (Mr.Reid always watches you👀)` )
+
+  break;
+  case 13:
+  console.log(`Hello Master of the Oneplus ${userName}.  I have one message for you:
+  If apple and pixel switch phone hardware which phone would you   have?`)
+  break;
+}
+
